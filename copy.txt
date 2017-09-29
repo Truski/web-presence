@@ -1,0 +1,130 @@
+Daniel Wojtowicz
+
+Game Design - CS Skills - eSports - Contact
+
+Design
+Define
+Develop
+
+< Photo of me >
+
+
+Game Development
+
+The gaming experiences of past and present give me a special viewing angle on
+the world of video game development. I employ light game frameworks or build
+from scratch to create captivating encounters with efficient use of graphics.
+Check out some of my projects below:
+
+Soccer Bars
+Single Player Arcade Game
+Created: December 2015
+Software : Blender, Photoshop, Eclipse
+Frameworks: LibGDX + PHP Backend
+
+Tetris
+The Original Puzzle Game
+Created March 2016
+Software: Chrome, Sublime Text 3
+Framework: DOM Manipulation using jQuery
+
+Super Chess
+Online Multiplayer Classic
+Created: August 2016
+Software: IntelliJ Idea
+Framework: LibGDX
+
+
+Computer Science
+
+My education at Illinois Institute of Technology has expanded my capacity to
+create epic software using optimal data structures and slick algorithms. I am
+currently slated to complete my Master's Degree in Computer Science in May
+2019.
+
+Programming Languages
+Java 80%
+C 80%
+Visual Basic 60%
+Python 40%
+HTML 100%
+CSS 90%
+JavaScript 80%
+SQL 100%
+PHP 80%
+WebGL 25%
+
+What I'm Learning Now
+
+Advanced Database Organization
+Currently creating many parts of a functioning Relational Database Management
+System. Low level code in the RDBMS is what makes efficient queries possible.
+
+Computer Graphics
+Building visual beauty starts at the basics: points, lines and triangles.
+Through clever algorithms beautiful effects are rendered in a fraction of a
+second.
+
+Software Engineering
+The agile approach to software enables rapid prototyping and increased
+likelihood of staying under budget and ahead of schedule. The goal in this class
+is to work on a team to create a mobile app to improve students' day-to-day
+lives like never before.
+
+Standards Based Web Design
+Building with standards in mind is keeping rules that allow you more freedom.
+In this class I am creating accessible, mobile-first websites like this one.
+
+Industry Experience - Optional
+
+
+eSports
+
+Born a competitor, I strive to be distinguish myself amidst the pack. Electronic
+sports have become a lifestyle, and I am engulfed in the world of eSports as a
+player and as a tournament organizer. I combine my knowledge in programming to
+host extravagant tournaments of epic proportion for the local scene and beyond.
+
+VJA Smash Society
+A high school club I created that has become more than just a place to hang out
+after school. It has expanded across generations of students and alumni and into
+other cities, hosting tournaments multiple times a year and having yearly
+seasons.
+
+Recent Event:
+Inferno 2017: July 22nd, 2017
+Items created: Teaser, Trailer, Professional Stream
+Skills required: Filming, Video Editing, Image Creation and Manipulation
+
+Software: Twitch Manager: eSports Streaming Companion
+Allow seamless integration with services like Challonge! as well as the
+scene's statistics database.
+Available on GitHub: https://github.com/Truski/twitchman
+
+Online Presence:
+Official Website
+Includes general information and calendar about the club.
+Tournament Portal
+Keeps track of player statistics and allows registration for tournaments.
+
+Competitive Game Rankings
+
+League of Legends
+Highest Rank Achieved: Challenger - Season 4
+Main Champion: Nidalee
+
+Super Smash Bros. Melee
+Highest Tournament Placement: 17th Place, Praxis 2 - Electric Boogaloo
+Main Character: Falco
+
+Counter Strike: Global Offensive
+Highest Placement: Gold Nova Master: Summer 2015
+Main Weapons: SG553 / AUG
+
+
+Contact
+
+Twitter https://twitter.com/DanWojtowicz
+Email mailto:dwojtowi@hawk.iit.edu
+GitHub https://github.com/Truski
+LinkedIn https://www.linkedin.com/in/daniel-wojtowicz-5b2476120/

@@ -49,3 +49,38 @@ table {
 
 /* End Reset CSS */
 /* Begin Site Styles */
+
+/* Using 18px/22px gridline with Perfect Fourth typographic scale */
+
+/* Base */
+
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  font-size: 1.125em; /* 18 / 16 = 1.25 */
+  line-height: 1.22222em; /* 22 / 18 = 1.22222 */
+}
+
+h4 {
+  font-size: 1.33333em; /* 24 / 18 = 1.33333 */
+  line-height: 1.83333em; /* 44 / 24 = 1.83333 */
+}
+
+h3 {
+  font-size: 1.77777em; /* 32 / 18 = 1.77777 */
+  line-height: 1.375em; /* 44 / 32 = 1.375 */
+}
+
+h2 {
+  font-size: 2.33333em; /* 42 / 18 = 2.33333 */
+  line-height: 1.57143em; /* 66 / 42 = 1.57143 */
+}
+
+h1 {
+  font-size: 3.66666em; /* 66 / 18 = 3.11111 */
+  line-height: 1.33333em; /* 88 / 66 = 1.33333 */
+}

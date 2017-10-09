@@ -65,6 +65,10 @@ html {
   line-height: 1.22222em; /* 22 / 18 = 1.22222 */
 }
 
+body {
+  padding-top: 2.44444em;
+}
+
 h4 {
   font-size: 1.33333em; /* 24 / 18 = 1.33333 */
   line-height: 1.83333em; /* 44 / 24 = 1.83333 */
@@ -83,4 +87,32 @@ h2 {
 h1 {
   font-size: 3.66666em; /* 66 / 18 = 3.11111 */
   line-height: 1.33333em; /* 88 / 66 = 1.33333 */
+}
+
+/* Layout */
+
+#navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#navigation li {
+  float: left;
+  width: 25%;
+}
+
+/* Modular */
+
+#navigation a {
+  display: block;
+  padding-top: .61111em;
+  padding-bottom: 0.61111em;
+  color: #eeeeee;
+  font-weight: bold;
+  background-color: #444444;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-align: center;
 }

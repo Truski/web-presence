@@ -89,6 +89,18 @@ h1 {
   line-height: 1.33333em; /* 88 / 66 = 1.33333 */
 }
 
+p {
+  padding-bottom: 1.22222em; /* 22 / 18 = 1.22222 */
+}
+
+li {
+  padding-bottom: 0.61111em; /* 11 / 18 = 0.611 */
+}
+
+ol, ul {
+  padding-bottom: 0.61111em; /* 11 / 18 = 0.611 */
+}
+
 /* Layout */
 
 #navigation {

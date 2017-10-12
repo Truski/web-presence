@@ -137,6 +137,25 @@ ol, ul {
 
 section > h2 {
   background-color: #111111;
-  color: #eeeeee;
   text-align: center;
+}
+
+#content > section {
+  color: #eeeeee;
+}
+
+#gamedev {
+  background-color: #004477; /* Blue */
+}
+
+#computerscience {
+  background-color: #880000; /* Red */
+}
+
+#esports {
+  background-color: #550055; /* Purple */
+}
+
+#contact {
+  background-color: #ff6600; /* Orange */
 }

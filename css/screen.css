@@ -128,3 +128,9 @@ ol, ul {
   text-decoration: none;
   text-align: center;
 }
+
+.lede {
+  font-style: italic;
+  text-align: center;
+  line-height: 1.83333;
+}

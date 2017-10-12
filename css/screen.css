@@ -143,6 +143,8 @@ ol, ul {
 section > h2 {
   background-color: #111111;
   text-align: center;
+  border-top: 5px solid #eeeeee;
+  border-bottom: 5px solid #eeeeee;
 }
 
 #content > section {

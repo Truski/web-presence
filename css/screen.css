@@ -134,3 +134,9 @@ ol, ul {
   text-align: center;
   line-height: 1.83333;
 }
+
+section > h2 {
+  background-color: #111111;
+  color: #eeeeee;
+  text-align: center;
+}

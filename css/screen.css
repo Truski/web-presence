@@ -154,6 +154,7 @@ img {
 .lede {
   font-style: italic;
   text-align: center;
+  font-size: 125%;
   line-height: 1.83333;
 }
 
@@ -166,6 +167,10 @@ section > h2 {
 
 #header {
   background-color: #003366; /* Blue */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 #gamedev {

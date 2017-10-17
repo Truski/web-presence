@@ -194,6 +194,11 @@ section > h2 {
   border-top: 5px solid #eeeeee;
 }
 
+#footer > p {
+  text-align: center;
+  padding-top: 1.22222em;
+}
+
 #header > img {
   max-height: 45vh;
   border-radius: 50%;

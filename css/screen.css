@@ -208,6 +208,11 @@ section > h2 {
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
+#gamedev img {
+  border: 4px solid #003300;
+  margin-bottom: 1.2222em;
+}
+
 .skill-container {
   width: 100%;
   height: 1em;

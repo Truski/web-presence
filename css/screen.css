@@ -130,6 +130,10 @@ h1, h2, h3, h4 {
   padding-right: 1.22222em; /* 22 / 18 = 1.22222 */
 }
 
+#content > section > h2 {
+  margin-bottom: 0.52381em; /* 22 / 42 = 0.52381 */
+}
+
 /* Modular */
 
 #navigation a {

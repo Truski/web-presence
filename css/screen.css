@@ -87,8 +87,10 @@ h2 {
 }
 
 h1 {
-  font-size: 3.66666em; /* 66 / 18 = 3.11111 */
-  line-height: 1.33333em; /* 88 / 66 = 1.33333 */
+  font-size: 2.33333em; /* 42 / 18 = 2.33333 */
+  line-height: 1.57143em; /* 66 / 42 = 1.57143 */
+  font-weight: bold;
+  text-align: center;
 }
 
 p {

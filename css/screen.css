@@ -87,6 +87,7 @@ h1 {
   line-height: 1.57143em; /* 66 / 42 = 1.57143 */
   font-weight: bold;
   text-align: center;
+  padding-top: 1.04762em; /* 44 / 42 = 1.04762 */
 }
 
 p {
@@ -126,10 +127,6 @@ img {
 #navigation li {
   float: left;
   width: 25%;
-}
-
-#header {
-  padding-top: 2.44444em; /* 44 / 18 = 2.44444 */
 }
 
 #content > section > *, #header {

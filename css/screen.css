@@ -228,10 +228,17 @@ section > h2 {
 
 /* State */
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 700px) {
   #content > section > *, #header > .lede {
     padding-left: 12%;
     padding-right: 12%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #content > section > *, #header > .lede {
+    padding-left: 18%;
+    padding-right: 18%;
   }
 }
 

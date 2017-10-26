@@ -141,6 +141,14 @@ img {
   padding-right: 1.22222em; /* 22 / 18 = 1.22222 */
 }
 
+#content > section {
+  padding-bottom: 1.22222em;
+}
+
+#content > #contact {
+  padding-bottom: 0;
+}
+
 #content > section > h2 {
   margin-bottom: 0.52381em; /* 22 / 42 = 0.52381 */
 }

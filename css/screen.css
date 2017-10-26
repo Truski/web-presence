@@ -307,7 +307,7 @@ section > h2 {
     justify-content: center;
   }
 
-  .flexbox .main-content {
+  .flexbox .section-content {
     display: flex;
   }
 

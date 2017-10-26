@@ -222,6 +222,7 @@ section > h2 {
   height: 1em;
   background-color: rgba(0, 0, 0, .2);
   border: 0.11111em solid rgba(0, 0, 0, .1); /* 2 / 18 = 0.11111 */
+  margin-top: 0.33333em; /* 6 / 18 = 3.33333 */
 }
 
 .skill-bar {

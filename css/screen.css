@@ -308,8 +308,8 @@ section > h2 {
   }
 
   #header > .lede, #content > section > .lede {
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 24.5%; /* (840 - (84+42)*2) / 1200 / 2 = 0.245 */
+    padding-right: 24.5%; /* (840 - (84+42)*2) / 1200 / 2 = 0.245 */
   }
 
 }

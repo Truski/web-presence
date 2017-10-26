@@ -167,7 +167,7 @@ img {
 section > h2 {
   background-color: #111111;
   text-align: center;
-  border-top: 5px solid #eeeeee;
+  border-top: 7px solid #eeeeee;
   border-bottom: 5px solid #eeeeee;
 }
 
@@ -193,7 +193,7 @@ section > h2 {
 
 #footer {
   background-color: #111111; /* Black */
-  border-top: 5px solid #eeeeee;
+  border-top: 7px solid #eeeeee;
 }
 
 #footer > p {

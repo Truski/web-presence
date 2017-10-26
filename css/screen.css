@@ -129,6 +129,13 @@ img {
   width: 25%;
 }
 
+.flexbox #header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 #content > section > *, #header {
   padding-left: 1.22222em; /* 22 / 18 = 1.22222 */
   padding-right: 1.22222em; /* 22 / 18 = 1.22222 */
@@ -166,10 +173,6 @@ section > h2 {
 
 #header {
   background-color: #003366; /* Blue */
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
 }
 
 #gamedev {

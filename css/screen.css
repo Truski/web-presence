@@ -253,35 +253,58 @@ section > h2 {
   }
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1200px) {
+  /*
+   7 Total Column Layout - 3 Left, 4 Right
+   1200px / whole screen
+   -360px / margins (total)
+    840px remaining
+   84px / column
+   42px / gutter
+   Left-hand column : 84 * 3 + 42 * 2 = 336
+   Right-hand column: 462px, offset by 42
+  */
 
   #content > section > * {
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 15%; /* 180 / 1200 = 0.15 */
+    padding-right: 15%; /* 180 / 1200 = 0.15 */
   }
 
-  .main-content {
+  .primary {
+    float: left;
+    width: 55%; /* 462 / 840 = 0.55 */
+  }
+
+  .supporting {
+    float: left;
+    width: 40%; /* 336 / 840 = 0.4 */
+  }
+
+  .primary {
+    margin-left: 5%; /* 42 / 840 = 0.05 */
+  }
+
+  .clearfix {
+    clear: both;
+    float: none;
+  }
+
+  .flexbox #gamedev > section {
     display: flex;
   }
 
-  .main-content > .primary, .main-content > .supporting {
-    flex: 1;
-    flex-grow: 1;
-  }
-
-  .main-content > .supporting {
-    margin-left: 2.44444em;
-  }
-
-  #gamedev > section {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  #gamedev .supporting {
+  .flexbox #gamedev .primary {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .flexbox .main-content {
+    display: flex;
+  }
+
+  .flexbox .primary, .flexbox .supporting {
+    float: none;
   }
 
   #header > .lede, #content > section > .lede {

@@ -239,17 +239,17 @@ section > h2 {
 
 /* State */
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 600px) {
   #content > section > *, #header > .lede {
-    padding-left: 12%;
-    padding-right: 12%;
+    padding-left: 7.33333%; /* 44 / 600 = 0.0733333 */
+    padding-right: 7.33333%; /* 44 / 600 = 0.0733333 */
   }
 }
 
 @media screen and (min-width: 900px) {
   #content > section > *, #header > .lede {
-    padding-left: 18%;
-    padding-right: 18%;
+    padding-left: 16.66666%; /* 150 / 900 = .1666666 */
+    padding-right: 16.66666%; /* 150 / 900 = .1666666 */
   }
 }
 

@@ -219,7 +219,7 @@ section > h2 {
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
-#gamedev img {
+.screenshot img {
   border: 0.11905em solid #eeeeee; /* 5 / 42 = 0.11905 */
   margin-bottom: 1.2222em;
   margin-left: auto;

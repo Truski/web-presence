@@ -154,8 +154,7 @@ img {
 .lede {
   font-style: italic;
   text-align: center;
-  font-size: 125%;
-  line-height: 1.83333;
+  line-height: 1.83333em; /* 33 / 18 = 1.83333 */
 }
 
 section > h2 {
@@ -281,8 +280,7 @@ section > h2 {
 }
 
 @media screen and (min-width: 1600px) {
-    html {
-      font-size: 1.375em; /* 22 / 16 = 1.375 */
-      line-height: 1.27272em; /* 28 / 22 = 1.27272 */
+    .lede {
+      font-size: 1.33333em; /* 24 / 18 = 1.33333 */
     }
 }

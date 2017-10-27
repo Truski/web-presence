@@ -247,21 +247,38 @@ section > h2 {
 
 /* State */
 
-@media screen and (min-width: 600px) {
+/*
+  600 px
+  600 / 16 = 37.5
+  Note: the em unit in media queries is the base size, not the one
+  set in the html tag
+*/
+
+@media screen and (min-width: 37.5em) {
   #content > section > *, #header > .lede {
     padding-left: 7.33333%; /* 44 / 600 = 0.0733333 */
     padding-right: 7.33333%; /* 44 / 600 = 0.0733333 */
   }
 }
 
-@media screen and (min-width: 900px) {
+/*
+  900 px
+  900 / 16 = 56.25
+*/
+
+@media screen and (min-width: 56.25em) {
   #content > section > *, #header > .lede {
     padding-left: 16.66666%; /* 150 / 900 = .1666666 */
     padding-right: 16.66666%; /* 150 / 900 = .1666666 */
   }
 }
 
-@media screen and (min-width: 1200px) {
+/*
+  1200 px
+  1200 / 16 = 75
+*/
+
+@media screen and (min-width: 75em) {
   /*
    7 Total Column Layout - 3 Left, 4 Right
    1200px / whole screen
@@ -322,7 +339,12 @@ section > h2 {
 
 }
 
-@media screen and (min-width: 1600px) {
+/*
+  1600 px
+  1600 / 16 = 100
+*/
+
+@media screen and (min-width: 100em) {
     .lede {
       font-size: 1.33333em; /* 24 / 18 = 1.33333 */
     }

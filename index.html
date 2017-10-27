@@ -18,7 +18,16 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <img src="media/img/daniel.jpg" alt="A photo of me." />
+      <img
+        alt="A photo of me."
+        srcset="media/img/daniel-cropped-original.jpg 1024w,
+          media/img/daniel-840-30.jpg 840w,
+          media/img/daniel-600-60.jpg 600w,
+          media/img/daniel-512-60.jpg 512w,
+          media/img/daniel-350-60.jpg 350w"
+        sizes="(min-width: 1200px) 70vw, (min-width: 900px) 66vw, (min-width: 600px) 85vw"
+        src="media/img/daniel-350-60.jpg"
+        />
       <p class="lede">
         I'm on a mission to design exciting games, to develop powerful solutions
         to modern problems, and to evolve tournament experiences.

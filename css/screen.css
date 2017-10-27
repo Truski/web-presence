@@ -309,7 +309,9 @@ section > h2 {
     margin-left: 5%; /* 42 / 840 = 0.05 */
   }
 
-  .clearfix {
+  #gamedev > section:after, .section-content:after {
+    content: '';
+    display: block;
     clear: both;
     float: none;
   }

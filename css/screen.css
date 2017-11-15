@@ -166,6 +166,10 @@ img {
   text-align: center;
 }
 
+#this-page {
+  border-bottom: 3px solid orange;
+}
+
 .lede {
   font-style: italic;
   text-align: center;

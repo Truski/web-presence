@@ -129,14 +129,14 @@ img {
   width: 25%;
 }
 
-.flexbox #header {
+.flexbox #home #header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
-#content > section > *, #header {
+#content > *, #header {
   padding-left: 1.22222em; /* 22 / 18 = 1.22222 */
   padding-right: 1.22222em; /* 22 / 18 = 1.22222 */
 }
@@ -149,7 +149,7 @@ img {
   padding-bottom: 0;
 }
 
-#content > section > h2 {
+#content > h2 {
   margin-bottom: 0.52381em; /* 22 / 42 = 0.52381 */
 }
 
@@ -176,7 +176,7 @@ img {
   line-height: 1.83333em; /* 33 / 18 = 1.83333 */
 }
 
-section > h2 {
+main > h2 {
   background-color: #111111;
   text-align: center;
   border-top: 0.16666em solid #eeeeee; /* 7 / 42 = 0.16666 */
@@ -232,7 +232,7 @@ section > h2 {
   box-sizing: border-box; /* Keeps borders from making width > 100% */
 }
 
-#gamedev {
+#gamedev #content {
   text-align: center;
 }
 
@@ -271,7 +271,7 @@ section > h2 {
 */
 
 @media screen and (min-width: 56.25em) {
-  #content > section > *, #header > .lede {
+  #content > *, #header > .lede {
     padding-left: 16.66666%; /* 150 / 900 = .1666666 */
     padding-right: 16.66666%; /* 150 / 900 = .1666666 */
   }
@@ -294,7 +294,7 @@ section > h2 {
    Right-hand column: 462px, offset by 42
   */
 
-  #content > section > * {
+  #content > * {
     padding-left: 15%; /* 180 / 1200 = 0.15 */
     padding-right: 15%; /* 180 / 1200 = 0.15 */
   }
@@ -320,7 +320,7 @@ section > h2 {
     float: none;
   }
 
-  .flexbox #gamedev > section {
+  .flexbox #gamedev > #content > section {
     display: flex;
   }
 

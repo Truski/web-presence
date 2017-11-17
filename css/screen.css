@@ -187,6 +187,10 @@ main > h2 {
   background-color: #003366; /* Blue */
 }
 
+#home {
+  background-color: #002040; /* Dark Blue */
+}
+
 #gamedev {
   background-color: #005a00; /* Green */
 }

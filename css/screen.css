@@ -316,6 +316,24 @@ main > h2 {
 }
 
 /*
+  1000 px
+  1000 / 16 = 62.5
+*/
+
+@media screen and (min-width: 62.5em){
+
+  #table-of-contents {
+    display: flex;
+  }
+
+  #table-of-contents > section {
+    margin-left: .5em;
+    margin-right: .5em;
+  }
+
+}
+
+/*
   1200 px
   1200 / 16 = 75
 */

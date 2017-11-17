@@ -225,6 +225,18 @@ main > h2 {
   border-top: 0.16666em solid #eeeeee; /* 7 / 42 = 0.16666 */
 }
 
+#table-of-contents > section {
+  border: 2px solid white;
+  border-radius: 1em;
+  background-color: #092949;
+  box-shadow: 0 0 0.44444em rgba(0, 0, 0, .8); /* 8 / 18 = 0.44444 */
+}
+
+#table-of-contents > section > h3 {
+  border-bottom: 2px solid white;
+  margin-bottom: 10px;
+}
+
 #table-of-contents a{
   padding: .5em;
   background-color: #003366;

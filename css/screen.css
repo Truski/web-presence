@@ -233,6 +233,7 @@ main > h2 {
 }
 
 #table-of-contents > section > h3 {
+  text-align: center;
   border-bottom: 2px solid white;
   margin-bottom: 10px;
 }

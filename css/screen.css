@@ -329,6 +329,7 @@ main > h2 {
   #table-of-contents > section {
     margin-left: .5em;
     margin-right: .5em;
+    flex: 1;
   }
 
 }

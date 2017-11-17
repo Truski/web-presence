@@ -153,6 +153,18 @@ img {
   margin-bottom: 0.52381em; /* 22 / 42 = 0.52381 */
 }
 
+#table-of-contents > section {
+  margin-bottom: 2em;
+  margin-top: 2em;
+  padding: 1em;
+}
+
+.flexbox #table-of-contents > section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /* Modular */
 
 #navigation a {

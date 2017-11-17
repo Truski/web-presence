@@ -209,6 +209,16 @@ main > h2 {
   border-top: 0.16666em solid #eeeeee; /* 7 / 42 = 0.16666 */
 }
 
+#table-of-contents a{
+  padding: .5em;
+  background-color: #003366;
+  border: 2px solid white;
+  border-radius: .5em;
+  text-decoration: none;
+  font-family: "Montserrat", "Helvetiva", "Arial", sans-serif;
+  text-align: center;
+}
+
 #footer > p {
   text-align: center;
   padding-top: 1.22222em;

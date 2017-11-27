@@ -65,6 +65,8 @@ html {
   line-height: 1.22222em; /* 22 / 18 = 1.22222 */
   font-family: "Merriweather", "Georgia", serif;
   color: #eeeeee; /* White */
+
+  background-color: #111111;
 }
 
 h4 {

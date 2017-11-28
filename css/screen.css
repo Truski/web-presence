@@ -191,6 +191,10 @@ img {
   padding-bottom: 0.5em;
 }
 
+.competitive-game {
+  padding-bottom: 2em;
+}
+
 /* Modular */
 
 #navigation a {
@@ -322,6 +326,15 @@ main > h2 {
   height: 100%;
 }
 
+.favorite {
+  text-align: center;
+}
+
+.favorite img {
+  border-radius: 50%;
+  box-shadow: 0 0 0.44444em rgba(0, 0, 0, .8); /* 8 / 18 = 0.44444 */
+}
+
 /* State */
 
 .wf-active {
@@ -336,7 +349,7 @@ main > h2 {
 */
 
 @media screen and (min-width: 37.5em) {
-  #content > section > *, #header > .lede {
+  #content > *, #header > .lede {
     padding-left: 7.33333%; /* 44 / 600 = 0.0733333 */
     padding-right: 7.33333%; /* 44 / 600 = 0.0733333 */
   }
@@ -409,7 +422,7 @@ main > h2 {
     margin-left: 5%; /* 42 / 840 = 0.05 */
   }
 
-  #gamedev > section:after, .section-content:after {
+  .section-content:after, .competitive-game:after {
     content: '';
     display: block;
     clear: both;
@@ -437,6 +450,26 @@ main > h2 {
   #header > .lede, #content > section > .lede {
     padding-left: 24.5%; /* (840 - (84+42)*2) / 1200 / 2 = 0.245 */
     padding-right: 24.5%; /* (840 - (84+42)*2) / 1200 / 2 = 0.245 */
+  }
+
+  .competitive-game > header {
+    width: 75%;
+    float: left;
+  }
+
+  .competitive-game > figure {
+    margin-left: 5%;
+    width: 20%;
+    float: left;
+  }
+
+  .flexbox .competitive-game > * {
+    float: none;
+  }
+
+  .flexbox .competitive-game {
+    display: flex;
+    align-items: center;
   }
 
 }

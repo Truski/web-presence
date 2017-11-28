@@ -153,8 +153,13 @@ img {
 
 #table-of-contents > section {
   margin-bottom: 2em;
-  margin-top: 2em;
+  margin-top: 0.5em;
   padding: 1em;
+}
+
+#table-of-contents p.button {
+  text-align: center;
+  padding-bottom: 0.5em;
 }
 
 .flexbox #table-of-contents > section {
@@ -221,7 +226,7 @@ main > h2 {
 }
 
 #home {
-  background-color: #002040; /* Dark Blue */
+  background-color: #181818; /* Off-Black */
 }
 
 #gamedev {
@@ -237,7 +242,7 @@ main > h2 {
 }
 
 #contact {
-  background-color: #bb4400; /* Orange */
+  background-color: #003366; /* Blue */
   text-align: center;
 }
 
@@ -247,9 +252,6 @@ main > h2 {
 }
 
 #table-of-contents > section {
-  border: 2px solid white;
-  border-radius: 1em;
-  background-color: #092949;
   box-shadow: 0 0 0.44444em rgba(0, 0, 0, .8); /* 8 / 18 = 0.44444 */
 }
 
@@ -259,14 +261,25 @@ main > h2 {
   margin-bottom: 10px;
 }
 
-#table-of-contents a{
-  padding: .5em;
-  background-color: #003366;
-  border: 2px solid white;
-  border-radius: .5em;
+#table-of-contents a {
+  padding: 0.61111em 1.83333em;
   text-decoration: none;
   font-family: "Montserrat", "Helvetiva", "Arial", sans-serif;
   text-align: center;
+  box-shadow: 3px 3px 18px 8px rgba(50, 50, 50, 0.5), inset 0px 0px 5px 0px rgba(255, 255, 255, 0.2);
+  flex: 0 0;
+}
+
+#table-of-contents #gamedev a {
+  background-color: #187418;
+}
+
+#table-of-contents #computerscience a {
+  background-color: #7e1818;
+}
+
+#table-of-contents #esports a {
+  background-color: #4a186d;
 }
 
 #footer > p {

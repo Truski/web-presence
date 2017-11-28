@@ -292,6 +292,10 @@ main > h2 {
 
 /* State */
 
+.wf-active {
+  line-height: 1.5em; /* 27 / 18 = 1.44444 */
+}
+
 /*
   600 px
   600 / 16 = 37.5

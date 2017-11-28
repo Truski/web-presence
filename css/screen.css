@@ -147,10 +147,6 @@ img {
   padding-bottom: 1.22222em; /* 22 / 18 = 1.22222em */
 }
 
-#content > #contact {
-  padding-bottom: 0;
-}
-
 #content > h2 {
   margin-bottom: 0.52381em; /* 22 / 42 = 0.52381 */
 }
@@ -165,6 +161,29 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+#contact {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  border-top: 2px solid white;
+}
+
+#contact li, img {
+  display: inline;
+}
+
+#contact li {
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+#contact img {
+  max-width: 7.5vh;
+}
+
+#contact h2 {
+  padding-bottom: 0.5em;
 }
 
 /* Modular */

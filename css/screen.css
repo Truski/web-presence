@@ -214,9 +214,10 @@ img {
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   text-decoration: none;
   text-align: center;
+  border-bottom: 3px solid #002040;
 }
 
-#this-page {
+#navigation a#this-page {
   border-bottom: 3px solid orange;
 }
 

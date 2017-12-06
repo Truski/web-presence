@@ -71,17 +71,20 @@ html {
 
 h4 {
   font-size: 1.33333em; /* 24 / 18 = 1.33333 */
-  line-height: 1.83333em; /* 44 / 24 = 1.83333 */
+  line-height: 1.375em; /* 33 / 24 = 1.375 */
+  padding-bottom: 0.45833em; /* 11 / 24 = 0.45833 */
 }
 
 h3 {
   font-size: 1.77777em; /* 32 / 18 = 1.77777 */
-  line-height: 1.375em; /* 44 / 32 = 1.375 */
+  line-height: 1.20313em; /* 38.5 / 32 = 1.20313 */
+  padding-bottom: 0.34375em; /* 11 / 32 = 0.34375 */
 }
 
 h2 {
   font-size: 2.33333em; /* 42 / 18 = 2.33333 */
-  line-height: 1.57143em; /* 66 / 42 = 1.57143 */
+  line-height: 1.30952em; /* 44 / 42 = 1.30952 */
+  padding-bottom: 0.13095em; /* 5.5 / 42 = 0.13095 */
 }
 
 h1 {
@@ -89,7 +92,8 @@ h1 {
   line-height: 1.57143em; /* 66 / 42 = 1.57143 */
   font-weight: bold;
   text-align: center;
-  padding-top: 1.04762em; /* 44 / 42 = 1.04762 */
+  padding-top: 1.30952em; /* 55 / 42 = 1.04762 */
+  padding-bottom: 0.2619em; /* 22 / 42 = 0.2619 */
 }
 
 p {

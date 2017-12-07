@@ -511,15 +511,15 @@ main > h2 {
     align-items: center;
   }
 
-  .flexbox #ssbm {
+  .flexbox #leagueoflegends {
     flex-direction: row-reverse;
   }
 
-  .flexbox #ssbm > figure {
+  .flexbox #leagueoflegends > figure {
     margin-left: 0;
   }
 
-  .flexbox #ssbm > header {
+  .flexbox #leagueoflegends > header {
     margin-left: 5%;
   }
 

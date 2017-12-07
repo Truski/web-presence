@@ -503,6 +503,14 @@ main > h2 {
     margin-left: 5%;
   }
 
+  /*
+    VJA Smash Section
+    2 Column Layout
+    Header: 60%
+    Logo: 35%
+    Margin: 5%
+  */
+
   #vjasmash > figure {
     width: 35%;
     float: left;

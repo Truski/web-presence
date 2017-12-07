@@ -222,6 +222,7 @@ img {
   text-decoration: none;
   text-align: center;
   border-bottom: 3px solid #002040;
+  transition: all .2s linear;
 }
 
 #navigation a#this-page {
@@ -287,6 +288,7 @@ main > h2 {
   font-family: "Montserrat", "Helvetiva", "Arial", sans-serif;
   text-align: center;
   box-shadow: 3px 3px 18px 8px rgba(50, 50, 50, 0.5), inset 0px 0px 5px 0px rgba(255, 255, 255, 0.2);
+  transition: all .2s linear;
 }
 
 #table-of-contents #gamedev a {
@@ -354,6 +356,15 @@ main > h2 {
 
 .wf-active {
   line-height: 1.52778em; /* 27.5 / 18 = 1.52778 */
+}
+
+#navigation a:hover {
+  background-color: #004080;
+  border-bottom: 3px solid #004080;
+}
+
+#table-of-contents a:hover {
+  box-shadow: 3px 3px 18px 8px rgba(50, 50, 50, 0.5), inset 0px 0px 10px 4px rgba(255, 255, 255, 0.3);
 }
 
 /*

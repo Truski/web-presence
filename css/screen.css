@@ -66,7 +66,7 @@ html {
   font-family: "Merriweather", "Georgia", serif;
   color: #eeeeee; /* White */
 
-  background-color: #111111;
+  background-color: #111111; /* Black */
 }
 
 h4 {
@@ -90,21 +90,18 @@ h2 {
 h1 {
   font-size: 2.33333em; /* 42 / 18 = 2.33333 */
   line-height: 1.57143em; /* 66 / 42 = 1.57143 */
+  padding-bottom: 0.2619em; /* 22 / 42 = 0.2619 */
+
   font-weight: bold;
   text-align: center;
   padding-top: 1.30952em; /* 55 / 42 = 1.04762 */
-  padding-bottom: 0.2619em; /* 22 / 42 = 0.2619 */
 }
 
 p {
   padding-bottom: 1.22222em; /* 22 / 18 = 1.22222 */
 }
 
-li {
-  padding-bottom: 0.61111em; /* 11 / 18 = 0.611 */
-}
-
-ol, ul {
+ol, ul, li {
   padding-bottom: 0.61111em; /* 11 / 18 = 0.611 */
 }
 
@@ -156,14 +153,14 @@ img {
 }
 
 #table-of-contents > section {
-  margin-bottom: 2em;
-  margin-top: 0.5em;
-  padding: 1em;
+  margin-bottom: 2.44444em; /* 44 / 18 = 2.44444 */
+  margin-top: 1.22222em; /* 22 / 18 = 1.22222 */
+  padding: 1.22222em; /* 22 / 18 = 1.22222 */
 }
 
 #table-of-contents p.button {
   text-align: center;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.61111em; /* 11 / 18 = 0.61111 */
 }
 
 .flexbox #table-of-contents > section {
@@ -173,8 +170,8 @@ img {
 }
 
 #contact {
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding-top: 1.52778em; /* 27.5 / 18 = 1.52778 */
+  padding-bottom: 1.52778em; /* 27.5 / 18 = 1.52778 */
   border-top: 2px solid white;
 }
 
@@ -183,8 +180,8 @@ img {
 }
 
 #contact li {
-  padding-left: .5em;
-  padding-right: .5em;
+  padding-left: 0.61111em; /* 11 / 18 = 0.61111 */
+  padding-right: 0.61111em; /* 11 / 18 = 0.61111 */
 }
 
 #contact img {
@@ -192,11 +189,11 @@ img {
 }
 
 #contact h2 {
-  padding-bottom: 0.5em;
+  padding-bottom: 0.52381em; /* 22 / 42 = 0.52381 */
 }
 
 .competitive-game {
-  padding-bottom: 3em;
+  padding-bottom: 3.05556em; /* 55 / 18 = 3.05556 */
 }
 
 #vjasmash figure {
@@ -211,8 +208,8 @@ img {
 
 #navigation a {
   display: block;
-  padding-top: .61111em;
-  padding-bottom: 0.61111em;
+  padding-top: .61111em; /* 11 / 18 = 0.61111 */
+  padding-bottom: 0.61111em; /* 11 / 18 = 0.61111 */
   font-weight: bold;
   background-color: #002040;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
@@ -275,7 +272,7 @@ main > h2 {
 #table-of-contents > section > h3 {
   text-align: center;
   border-bottom: 2px solid white;
-  margin-bottom: 10px;
+  margin-bottom: 0.34375em; /* 11 / 32 = 0.34375 */
 }
 
 #table-of-contents a {
@@ -284,7 +281,6 @@ main > h2 {
   font-family: "Montserrat", "Helvetiva", "Arial", sans-serif;
   text-align: center;
   box-shadow: 3px 3px 18px 8px rgba(50, 50, 50, 0.5), inset 0px 0px 5px 0px rgba(255, 255, 255, 0.2);
-  flex: 0 0;
 }
 
 #table-of-contents #gamedev a {
@@ -301,7 +297,7 @@ main > h2 {
 
 #footer > p {
   text-align: center;
-  padding-top: 1.22222em;
+  padding-top: 1.22222em; /* 22 / 18 = 1.22222 */
 }
 
 #header > img {
@@ -351,7 +347,7 @@ main > h2 {
 /* State */
 
 .wf-active {
-  line-height: 1.5em; /* 27 / 18 = 1.44444 */
+  line-height: 1.52778em; /* 27.5 / 18 = 1.52778 */
 }
 
 /*
@@ -392,8 +388,8 @@ main > h2 {
   }
 
   #table-of-contents > section {
-    margin-left: .5em;
-    margin-right: .5em;
+    margin-left: .61111em; /* 11 / 18 = 0.61111 */
+    margin-right: .61111em; /* 11 / 18 = 0.61111 */
     flex: 1;
   }
 
@@ -464,6 +460,14 @@ main > h2 {
     padding-left: 24.5%; /* (840 - (84+42)*2) / 1200 / 2 = 0.245 */
     padding-right: 24.5%; /* (840 - (84+42)*2) / 1200 / 2 = 0.245 */
   }
+
+  /*
+    Competitive Games Section
+    2 Column Alternating Layout
+    Header: 75%
+    Supporting Figure: 20%
+    Margin: 5%
+  */
 
   .competitive-game > header {
     width: 75%;

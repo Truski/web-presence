@@ -149,6 +149,8 @@ img {
 }
 
 #content > h2 {
+  padding-left: 0.52381em; /* 22 / 42 = 0.52381 */
+  padding-right: 0.52381em; /* 22 / 42 = 0.52381 */
   margin-bottom: 0.52381em; /* 22 / 42 = 0.52381 */
 }
 

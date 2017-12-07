@@ -144,7 +144,7 @@ img {
   padding-right: 1.22222em; /* 22 / 18 = 1.22222 */
 }
 
-#content > section {
+#content > section, .section-content {
   padding-bottom: 1.22222em; /* 22 / 18 = 1.22222em */
 }
 

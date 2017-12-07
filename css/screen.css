@@ -73,12 +73,16 @@ h4 {
   font-size: 1.33333em; /* 24 / 18 = 1.33333 */
   line-height: 1.375em; /* 33 / 24 = 1.375 */
   padding-bottom: 0.45833em; /* 11 / 24 = 0.45833 */
+
+  font-weight: bold;
 }
 
 h3 {
   font-size: 1.77777em; /* 32 / 18 = 1.77777 */
   line-height: 1.20313em; /* 38.5 / 32 = 1.20313 */
   padding-bottom: 0.34375em; /* 11 / 32 = 0.34375 */
+
+  font-weight: bold;
 }
 
 h2 {
